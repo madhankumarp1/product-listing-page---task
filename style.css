@@ -1,0 +1,90 @@
+.page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.inerpage {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.image-row-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.image-row-2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.image-row-3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+/* All image Size */
+img {
+    width: 240px;
+    height: 120px;
+    border-radius: 3px;
+
+}
+
+/* image -Div */
+.image-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image-3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p {
+    height: 30%;
+    margin: 0;
+    font-family: monospace;
+    font-size: smaller;
+}
+
+p.heading {
+    font-family: monospace;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 0;
+}
+hr {
+    border-bottom: groove;
+    border-color: violet;
+    width: 10%;
+    margin: 0;
+}

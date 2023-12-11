@@ -1,0 +1,95 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body {
+    width: 98%;
+    height: 98%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: #f8fbfd;
+}
+.page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inerpage {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
+}
+.image-div {
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: end;
+}
+.cont-div {
+    width: 100%;
+    /* height: 100%; */
+}
+img {
+    width: 300px;
+    height: 290px;
+    border-radius: 3px;
+
+}
+.btton {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    width: 12%;
+    height: 60%;
+    font-size: medium;
+    color: white;
+    background: blueviolet;
+    font-family:monospace;
+    font-weight: bolder;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgba(165, 164, 165, 0.562);
+    cursor: pointer;
+}
+
+button.cart {
+    width: 31%;
+    height: 35px;
+}
+
+h1#product {
+    font-family: monospace;
+    font-size: xx-large;
+    font-weight: lighter;
+    margin: 0;
+}
+
+h4#brand {
+    font-size: medium;
+    font-family: monospace;
+    color: gray;
+    margin: 0;
+}
+h6#rate {
+    font-family: monospace;
+    font-size: small;
+}
+p#para {
+    font-size: medium;
+    font-family: monospace;
+}
+i.fa-solid.fa-circle {
+    color: red;
+}
